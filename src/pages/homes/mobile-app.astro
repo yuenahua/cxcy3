@@ -21,7 +21,7 @@ const googlePlayImg = '~/assets/images/google-play.png';
 const googlePlayDownloadLink = 'https://github.com/onwidget/astrowind';
 
 const metadata = {
-  title: 'Mobile App Homepage',
+  title: '移动应用首页',
 };
 ---
 
@@ -31,13 +31,13 @@ const metadata = {
     <Header
       position="left"
       links={[
-        { text: 'Services', href: '#' },
-        { text: 'Features', href: '#' },
-        { text: 'About', href: '#' },
+        { text: '服务', href: '#' },
+        { text: '特性', href: '#' },
+        { text: '关于', href: '#' },
       ]}
       actions={[
         {
-          text: 'Download',
+          text: '下载',
           href: '#download',
         },
       ]}
@@ -49,23 +49,23 @@ const metadata = {
   <!-- Hero2 Widget ******************* -->
 
   <Hero2
-    tagline="Mobile App Web Demo"
+    tagline="移动应用演示"
     image={{
       src: 'https://images.unsplash.com/photo-1535303311164-664fc9ec6532?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
       alt: 'AstroWind Hero Image',
     }}
   >
     <Fragment slot="title">
-      <span class="text-accent dark:text-white highlight">AstroWind App</span>: <br /> professional websites <span
-        class="hidden xl:inline">made easy</span
+      <span class="text-accent dark:text-white highlight">AstroWind 应用</span>: <br /> 专业网站 <span
+        class="hidden xl:inline">轻松创建</span
       >
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        Unlock boundless creativity at your fingertips: your gateway to innovative design.
+        释放指尖无限创意：通往创新设计的门户。
       </span>
-      Download now and embark on a journey to elevate your projects like never before.
+      立即下载，开启前所未有的项目提升之旅。
     </Fragment>
 
     <div slot="actions" class="flex max-w-sm gap-4">
@@ -83,30 +83,30 @@ const metadata = {
 
   <Features3
     id="features"
-    title="How to use our app?"
-    subtitle="Tired of spending hours crafting documents from scratch? Our app offers an innovative solution. With a wide array of professionally designed templates, you can now create stunning documents in minutes. Explore our templates now and experience the difference."
-    tagline="Step-by-step guide"
+    title="如何使用我们的应用？"
+    subtitle="厌倦了花费数小时从头开始制作文档？我们的应用提供了创新的解决方案。通过各种专业设计的模板，您现在可以在几分钟内创建令人惊叹的文档。立即探索我们的模板，体验不同之处。"
+    tagline="分步指南"
     columns={2}
     items={[
       {
-        title: 'Download and install the app',
-        description: `Begin your journey by downloading our user-friendly app from your device's app store or our official website.`,
+        title: '下载并安装应用',
+        description: `从您设备的应用商店或我们的官方网站下载我们用户友好的应用，开始您的旅程。`,
         icon: 'tabler:square-number-1',
       },
       {
-        title: 'Sign up',
+        title: '注册',
         description:
-          'Create your account by providing the necessary information, enabling you to access our full range of features.',
+          '通过提供必要的信息创建您的账户，使您能够访问我们的全部功能。',
         icon: 'tabler:square-number-2',
       },
       {
-        title: 'Browse templates',
-        description: 'Explore our diverse collection of website templates, categorized for easy navigation.',
+        title: '浏览模板',
+        description: '探索我们多样化的网站模板集合，按类别分类，便于导航。',
         icon: 'tabler:square-number-3',
       },
       {
-        title: 'Preview and select a template',
-        description: `Visualize the potential of each template through previews, then choose the one that aligns best with your project's needs.`,
+        title: '预览并选择模板',
+        description: `通过预览可视化每个模板的潜力，然后选择最符合您项目需求的模板。`,
         icon: 'tabler:square-number-4',
       },
     ]}
@@ -122,26 +122,26 @@ const metadata = {
     isReversed
     items={[
       {
-        title: 'User-friendly interface',
+        title: '用户友好界面',
         description:
-          'An intuitive and easy-to-navigate interface that allows users to quickly browse and find the templates they need.',
+          '直观且易于导航的界面，允许用户快速浏览和找到他们需要的模板。',
         icon: 'tabler:wand',
       },
       {
-        title: 'Personalization options',
+        title: '个性化选项',
         description:
-          'Include basic customization tools that let users modify text, colors, images, and other elements within the templates.',
+          '包含基本的定制工具，让用户可以修改模板中的文本、颜色、图像和其他元素。',
         icon: 'tabler:settings',
       },
       {
-        title: 'Ready-to-use components',
+        title: '即用型组件',
         description:
-          'Enhance your designs with ready-to-use elements like graphics, icons, and layouts, saving you time and boosting visual appeal.',
+          '通过图形、图标和布局等即用型元素增强您的设计，节省您的时间并提升视觉吸引力。',
         icon: 'tabler:template',
       },
       {
-        title: 'Preview Mode',
-        description: 'Provide a preview of each template, allowing users to see how it looks before making a purchase.',
+        title: '预览模式',
+        description: '提供每个模板的预览，允许用户在购买前查看其外观。',
         icon: 'tabler:carousel-horizontal',
       },
     ]}
@@ -151,7 +151,7 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Main Features</h3>
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">主要特性</h3>
     </Fragment>
   </Content>
 
@@ -161,24 +161,24 @@ const metadata = {
     isAfterContent
     items={[
       {
-        title: 'Offline Access',
-        description: 'Offer the option for users to download purchased templates for offline use.',
+        title: '离线访问',
+        description: '为用户提供下载购买的模板以供离线使用的选项。',
         icon: 'tabler:wifi-off',
       },
       {
-        title: 'Secure Cloud Storage',
+        title: '安全云存储',
         description:
-          'Provide cloud storage for purchased templates, ensuring users can access and back up their templates from anywhere securely.',
+          '为购买的模板提供云存储，确保用户可以从任何地方安全地访问和备份他们的模板。',
         icon: 'tabler:file-download',
       },
       {
-        title: 'Regular Updates',
-        description: 'Continuously add new templates and features to keep the app fresh and engaging for users.',
+        title: '定期更新',
+        description: '不断添加新模板和功能，保持应用的新鲜感和对用户的吸引力。',
         icon: 'tabler:refresh',
       },
       {
-        title: 'Wishlist',
-        description: `Allow users to create a wishlist of templates they're interested in, making it easier for them to revisit and potentially purchase later.`,
+        title: '愿望清单',
+        description: `允许用户创建他们感兴趣的模板的愿望清单，使他们更容易重新访问并可能在以后购买。`,
         icon: 'tabler:heart',
       },
     ]}
@@ -188,14 +188,14 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Other features</h3>
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">其他特性</h3>
     </Fragment>
   </Content>
 
   <!-- Stats Widget ****************** -->
 
   <Stats
-    title="Statistics of our app"
+    title="我们应用的统计数据"
     stats={[
       { amount: '20K', icon: 'tabler:download' },
       { amount: '18.5K', icon: 'tabler:users' },
@@ -206,21 +206,21 @@ const metadata = {
   <!-- Testimonials Widget *********** -->
 
   <Testimonials
-    title="What our users say?"
+    title="我们的用户怎么说？"
     testimonials={[
       {
-        testimonial: `It's made exploring and downloading website templates a breeze. The interface is intuitive, and I had no trouble finding the perfect template for my project. It's an app that truly empowers users.`,
+        testimonial: `它让浏览和下载网站模板变得轻而易举。界面直观，我毫不费力地找到了适合我项目的完美模板。这是一个真正赋予用户权力的应用。`,
         name: 'Cary Kennedy',
-        job: 'Film director',
+        job: '电影导演',
         image: {
           src: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
           alt: 'Cary Kennedy Image',
         },
       },
       {
-        testimonial: `The app's seamless download process and intuitive layout have made selecting templates an enjoyable experience. Being able to preview and experiment with different designs before committing has saved me time and ensured I get the perfect look for my website.`,
+        testimonial: `应用的无缝下载过程和直观布局使选择模板成为一种愉快的体验。能够在提交前预览和尝试不同的设计，为我节省了时间，并确保我的网站获得完美的外观。`,
         name: 'Josh Wilkinson',
-        job: 'Product Manager',
+        job: '产品经理',
         image: {
           src: 'https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
           alt: 'Josh Wilkinson Image',
@@ -228,9 +228,9 @@ const metadata = {
       },
       {
         testimonial:
-          'I was able to download and use a professional website template within minutes. The step-by-step process and user-friendly interface made it easy for me to create a website that looks as if it was designed by a pro.',
+          '我能够在几分钟内下载并使用专业的网站模板。分步流程和用户友好的界面使我能够轻松创建一个看起来像是专业设计的网站。',
         name: 'Sidney Hansen',
-        job: 'Decorator',
+        job: '装饰师',
         image: {
           src: 'https://images.unsplash.com/photo-1512361436605-a484bdb34b5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
           alt: 'Sidney Hansen Image',
@@ -239,7 +239,7 @@ const metadata = {
     ]}
     callToAction={{
       target: '_blank',
-      text: 'Read more testimonials',
+      text: '阅读更多评价',
       href: 'https://github.com/onwidget/astrowind',
       icon: 'tabler:chevron-right',
     }}
@@ -248,31 +248,31 @@ const metadata = {
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="Still have some doubts?"
+    title="还有一些疑问？"
     items={[
       {
-        title: 'What does this app do?',
+        title: '这个应用是做什么的？',
         description:
-          'This app provides a platform for you to easily browse, purchase, download, and use a wide range of website templates for your projects.',
+          '这个应用为您提供了一个平台，让您可以轻松浏览、购买、下载和使用各种网站模板用于您的项目。',
       },
       {
-        title: 'How can this app solve my problem?',
+        title: '这个应用如何解决我的问题？',
         description:
-          'This app streamlines the process of finding and implementing professional website designs, saving you time and effort in creating visually appealing and functional websites.',
+          '这个应用简化了寻找和实施专业网站设计的过程，为您节省了创建视觉吸引力和功能性网站的时间和精力。',
       },
       {
-        title: 'Is it available for my device?',
-        description: `Our app is designed for compatibility across various devices and platforms, ensuring accessibility whether you're using a smartphone, tablet, or computer.`,
+        title: '它适用于我的设备吗？',
+        description: `我们的应用设计为兼容各种设备和平台，确保无论您使用智能手机、平板电脑还是计算机都能访问。`,
       },
       {
-        title: 'What makes this app different from others?',
+        title: '什么使这个应用与其他应用不同？',
         description:
-          'Our app stands out for its user-friendly interface, extensive template collection, and seamless integration of the purchasing and downloading process, making it highly efficient.',
+          '我们的应用因其用户友好的界面、丰富的模板集合以及购买和下载过程的无缝集成而脱颖而出，使其效率极高。',
       },
       {
-        title: 'Are there any costs involved?',
+        title: '是否有任何费用？',
         description:
-          'While the app itself may be free to download, there may be costs associated with purchasing specific templates based on your preferences and project requirements.',
+          '虽然应用本身可能免费下载，但根据您的偏好和项目要求，购买特定模板可能会产生相关费用。',
       },
     ]}
   />
@@ -281,8 +281,8 @@ const metadata = {
 
   <CallToAction
     id="download"
-    title="Download our app now!"
-    subtitle="Access a variety of stunning templates, simplify your creative process, and elevate your online presence."
+    title="立即下载我们的应用！"
+    subtitle="访问各种令人惊叹的模板，简化您的创作过程，提升您的在线形象。"
   >
     <div slot="actions" class="flex max-w-sm gap-4">
       <Button variant="link" href={appStoreDownloadLink}>

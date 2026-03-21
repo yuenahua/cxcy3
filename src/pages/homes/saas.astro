@@ -13,7 +13,7 @@ import FAQs from '~/components/widgets/FAQs.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 
 const metadata = {
-  title: 'SaaS Landing Page',
+  title: 'SaaS登录页面',
 };
 ---
 
@@ -24,12 +24,12 @@ const metadata = {
       actions={[
         {
           variant: 'secondary',
-          text: 'Login',
+          text: '登录',
           href: '#',
         },
         {
           variant: 'primary',
-          text: 'Sign Up',
+          text: '注册',
           href: '#',
         },
       ]}
@@ -40,10 +40,10 @@ const metadata = {
   <!-- Hero2 Widget ******************* -->
 
   <Hero2
-    tagline="SaaS Web Demo"
+    tagline="SaaS网站演示"
     actions={[
-      { variant: 'primary', target: '_blank', text: 'Get Started', href: 'https://github.com/onwidget/astrowind' },
-      { text: 'Learn more', href: '#features' },
+      { variant: 'primary', target: '_blank', text: '开始使用', href: 'https://github.com/onwidget/astrowind' },
+      { text: '了解更多', href: '#features' },
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1580481072645-022f9a6dbf27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
@@ -51,16 +51,16 @@ const metadata = {
     }}
   >
     <Fragment slot="title">
-      Simplify web design with Astrowind: <br /> your ultimate <span class="text-accent dark:text-white highlight"
+      使用Astrowind简化网页设计：<br /> 您的终极 <span class="text-accent dark:text-white highlight"
         >SaaS</span
-      > companion<br />
+      > 伴侣<br />
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        Elevate your website creation process with <span class="font-semibold">AstroWind</span>'s SaaS solutions.</span
+        通过 <span class="font-semibold">AstroWind</span> 的SaaS解决方案提升您的网站创建过程。</span
       >
-      Seamlessly blend the power of Astro 4.0 and Tailwind CSS to craft websites that resonate with your brand and audience.
+      无缝融合Astro 4.0和Tailwind CSS的强大功能，打造与您的品牌和受众共鸣的网站。
     </Fragment>
   </Hero2>
 
@@ -68,40 +68,40 @@ const metadata = {
 
   <Features
     id="features"
-    title="Why choose AstroWind?"
-    subtitle="Each of the following features enhances AstroWind's value proposition."
+    title="为什么选择AstroWind？"
+    subtitle="以下每个特性都增强了AstroWind的价值主张。"
     columns={2}
     items={[
       {
-        title: 'Integration of Astro 4.0 and Tailwind CSS',
+        title: 'Astro 4.0和Tailwind CSS的集成',
         description:
-          'Offers a powerful combination that enhances both the development process and the end-user experience. Also, allows to build dynamic and visually stunning websites with optimized performance.',
+          '提供强大的组合，增强开发过程和最终用户体验。还允许构建具有优化性能的动态和视觉上令人惊叹的网站。',
         icon: 'tabler:layers-union',
       },
       {
-        title: 'Versatile design for startups, small businesses, and more',
-        description: `Easily customize AstroWind to harmonize with the unique branding and identity of your venture. AstroWind's versatile design adapts to suit your needs.`,
+        title: '适合初创企业、小型企业等的多功能设计',
+        description: `轻松定制AstroWind，使其与您企业的独特品牌和身份协调一致。AstroWind的多功能设计可适应您的需求。`,
         icon: 'tabler:artboard',
       },
       {
-        title: 'Effortless customization for portfolios and marketing sites',
+        title: '投资组合和营销网站的轻松定制',
         description:
-          'With intuitive customization, easily showcase portfolio pieces, case studies, project highlights, and relevant content. Ideal for creative professionals and businesses looking to highlight their expertise.',
+          '通过直观的定制，轻松展示作品集、案例研究、项目亮点和相关内容。非常适合创意专业人士和希望突出其专业知识的企业。',
         icon: 'tabler:writing',
       },
       {
-        title: 'Optimized landing pages and engaging blogs',
-        description: `Landing pages are strategically designed to captivate visitors and prompt specific actions. Additionally, the blog creation feature empowers sharing insights, engaging the audience.`,
+        title: '优化的登录页面和引人入胜的博客',
+        description: `登录页面经过战略设计，以吸引访问者并促使他们采取特定行动。此外，博客创建功能使分享见解、吸引受众成为可能。`,
         icon: 'tabler:podium',
       },
       {
-        title: 'Fast loading times and production-ready code',
-        description: `Using Astro 4.0 ensures fast loading and seamless rendering, enhancing browsing. The code follows best practices, improving user experience, SEO, and reducing bounce rates.`,
+        title: '快速加载时间和生产就绪代码',
+        description: `使用Astro 4.0确保快速加载和无缝渲染，增强浏览体验。代码遵循最佳实践，改善用户体验、SEO并降低跳出率。`,
         icon: 'tabler:rocket',
       },
       {
-        title: 'SEO-optimized structure for enhanced visibility',
-        description: `Follows SEO best practices with clean code, semantic HTML markup, and fast loading, enhancing search engine rankings. AstroWind's SEO structure ensures visibility to potential customers and clients.`,
+        title: 'SEO优化结构增强可见性',
+        description: `遵循SEO最佳实践，使用干净的代码、语义化HTML标记和快速加载，提高搜索引擎排名。AstroWind的SEO结构确保对潜在客户和客户的可见性。`,
         icon: 'tabler:eyeglass',
       },
     ]}
@@ -110,18 +110,18 @@ const metadata = {
   <!-- Content Widget **************** -->
 
   <Content
-    title="Use cases"
-    subtitle="Discover how AstroWind's versatile template serves as the ideal solution for various use cases, providing tailored solutions to drive success."
+    title="使用案例"
+    subtitle="了解AstroWind的多功能模板如何作为各种用例的理想解决方案，提供量身定制的解决方案以推动成功。"
     isReversed
     items={[
       {
-        title: 'Description:',
+        title: '描述：',
         description:
-          'Are you a startup with big dreams? AstroWind propels your success. Our template forges a seamless online presence, attracting investors and customers from day one. Astro 4.0 and Tailwind CSS ensure striking, responsive sites, leaving lasting impressions. Countless startups leverage AstroWind to kickstart their journey and resonate with audiences.',
+          '您是一家有远大梦想的初创企业吗？AstroWind推动您的成功。我们的模板打造无缝的在线存在，从第一天起就吸引投资者和客户。Astro 4.0和Tailwind CSS确保创建引人注目、响应式的网站，留下持久印象。无数初创企业利用AstroWind启动他们的旅程并与受众产生共鸣。',
       },
       {
-        title: 'Benefits:',
-        description: `Allow startups to quickly create professional websites without investing extensive time and resources. <br /> Make a memorable first impression with visually appealing design elements that highlight your startup's unique value proposition. <br /> Ensures your website looks stunning and works well on all devices. <br /> Engage potential investors and customers with engaging content, clear messaging, and intuitive navigation.`,
+        title: '优势：',
+        description: `允许初创企业快速创建专业网站，而无需投入大量时间和资源。<br />通过视觉吸引力强的设计元素留下难忘的第一印象，突出您初创企业的独特价值主张。<br />确保您的网站在所有设备上看起来都很棒且运行良好。<br />通过引人入胜的内容、清晰的信息传递和直观的导航吸引潜在投资者和客户。`,
       },
     ]}
     image={{
@@ -131,7 +131,7 @@ const metadata = {
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Startup success stories: <br /><span class="text-2xl">Launching with AstroWind</span>
+        初创企业成功故事：<br /><span class="text-2xl">使用AstroWind启动</span>
       </h3>
     </Fragment>
 
@@ -146,12 +146,12 @@ const metadata = {
     isAfterContent={true}
     items={[
       {
-        title: 'Description:',
-        description: `For SaaS businesses, user experience is key. AstroWind enhances showcasing SaaS solutions intuitively. The template's Astro 4.0 and Tailwind CSS integration guarantees user-friendly experience, mirroring your software's efficiency. Customize pages to communicate SaaS value and solutions for your audience.`,
+        title: '描述：',
+        description: `对于SaaS企业，用户体验是关键。AstroWind增强了直观展示SaaS解决方案的能力。模板的Astro 4.0和Tailwind CSS集成保证了用户友好的体验，反映您软件的效率。定制页面以向您的受众传达SaaS价值和解决方案。`,
       },
       {
-        title: 'Benefits:',
-        description: `Ensuring a cohesive and user-centric design for your SaaS website. <br /> Effectively communicate complex SaaS features through visual aids, animations, and interactive elements. <br /> Prioritize user needs and pain points through well-structured layouts and clear navigation. <br /> Encourage visitors to take action with strategically placed CTAs. <br /> Ensures your SaaS website works seamlessly across all devices.`,
+        title: '优势：',
+        description: `确保您的SaaS网站具有凝聚力和以用户为中心的设计。<br />通过视觉辅助、动画和交互元素有效传达复杂的SaaS功能。<br />通过结构良好的布局和清晰的导航优先考虑用户需求和痛点。<br />通过战略性放置的CTA鼓励访问者采取行动。<br />确保您的SaaS网站在所有设备上无缝运行。`,
       },
     ]}
     image={{
@@ -161,7 +161,7 @@ const metadata = {
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        SaaS showcase: <br /><span class="text-2xl">Streamlining user experience</span>
+        SaaS展示：<br /><span class="text-2xl">简化用户体验</span>
       </h3>
     </Fragment>
 
@@ -177,12 +177,12 @@ const metadata = {
     isAfterContent={true}
     items={[
       {
-        title: 'Description:',
-        description: `Your portfolio is your masterpiece, and AstroWind is your canvas. Whether you're a designer, photographer, artist, or any other creative professional, AstroWind empowers you to showcase your work with elegance and sophistication. Tailored to highlight your creative projects, AstroWind's templates offer a visually immersive experience that lets your portfolio shine.`,
+        title: '描述：',
+        description: `您的作品集是您的杰作，而AstroWind是您的画布。无论您是设计师、摄影师、艺术家还是任何其他创意专业人士，AstroWind都能让您以优雅和精致的方式展示您的作品。AstroWind的模板专为突出您的创意项目而设计，提供视觉沉浸式体验，让您的作品集大放异彩。`,
       },
       {
-        title: 'Benefits:',
-        description: `Serve as a captivating backdrop to showcase your creative work, capturing attention and leaving a lasting impression. <br /> Tailor your portfolio to reflect your unique style and artistic vision. <br /> Prioritizes visuals, allowing you to present your work in high-resolution detail that draws viewers into your creations. <br /> Enables seamless navigation for effortless portfolio exploration.`,
+        title: '优势：',
+        description: `作为展示您创意作品的引人注目的背景，吸引注意力并留下持久印象。<br />定制您的作品集以反映您独特的风格和艺术愿景。<br />优先考虑视觉效果，允许您以高分辨率细节展示您的作品，吸引观众进入您的创作。<br />实现无缝导航，轻松探索作品集。`,
       },
     ]}
     image={{
@@ -192,7 +192,7 @@ const metadata = {
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Creative portfolios: <br /><span class="text-2xl">Highlighting your work</span>
+        创意作品集：<br /><span class="text-2xl">突出您的作品</span>
       </h3>
     </Fragment>
 
@@ -206,12 +206,12 @@ const metadata = {
   <Content
     items={[
       {
-        title: 'Description:',
-        description: `For small businesses, a well-crafted website can be a game-changer. AstroWind empowers small businesses to not only establish a credible online presence but also convert visitors into loyal customers. The template's thoughtful design and optimization features ensure that your website doesn't just attract attention but also guides visitors through a seamless journey, ultimately leading to conversions.`,
+        title: '描述：',
+        description: `对于小型企业，一个精心制作的网站可以改变游戏规则。AstroWind不仅使小型企业能够建立可信的在线存在，还能将访问者转化为忠实客户。模板的深思熟虑的设计和优化功能确保您的网站不仅吸引注意力，还能引导访问者完成无缝旅程，最终实现转化。`,
       },
       {
-        title: 'Benefits:',
-        description: `Present your small business with a professional and polished website that instills confidence and trust among visitors. <br /> Strategically placed CTAs, user-friendly forms, and optimized layouts work together to drive user engagement and conversions. <br /> Ensure a smooth browsing experience, reducing bounce rates and encouraging interaction.`,
+        title: '优势：',
+        description: `为您的小型企业呈现专业、精致的网站，在访问者中建立信心和信任。<br />战略性放置的CTA、用户友好的表单和优化的布局共同推动用户参与和转化。<br />确保流畅的浏览体验，降低跳出率并鼓励互动。`,
       },
     ]}
     image={{
@@ -221,7 +221,7 @@ const metadata = {
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Small business growth: <br /><span class="text-2xl">Converting visitors into customers</span>
+        小型企业增长：<br /><span class="text-2xl">将访问者转化为客户</span>
       </h3>
     </Fragment>
 
@@ -233,40 +233,40 @@ const metadata = {
   <!-- Pricing Widget ******************* -->
 
   <Pricing
-    title="Flexible pricing plans"
+    title="灵活的价格计划"
     prices={[
       {
-        title: 'free',
-        subtitle: 'Access to core features and a wide range of templates',
+        title: '免费',
+        subtitle: '访问核心功能和广泛的模板',
         price: '0',
-        period: '/ month',
+        period: '/ 月',
         callToAction: {
           target: '_blank',
-          text: 'Get Started for Free',
+          text: '免费开始',
           href: '#',
         },
       },
       {
-        title: 'pro',
-        subtitle: 'Premium templates and advanced customization',
+        title: '专业版',
+        subtitle: '高级模板和高级定制',
         price: 15,
-        period: '/ Month',
+        period: '/ 月',
         callToAction: {
           target: '_blank',
-          text: 'Upgrade to Pro',
+          text: '升级到专业版',
           href: '#',
         },
         hasRibbon: true,
-        ribbonTitle: 'popular',
+        ribbonTitle: '热门',
       },
       {
-        title: 'Enterprise',
-        subtitle: 'Tailored solutions for large-scale projects',
+        title: '企业版',
+        subtitle: '为大型项目量身定制的解决方案',
         price: 45,
-        period: '/ Month',
+        period: '/ 月',
         callToAction: {
           target: '_blank',
-          text: 'Unlock Enterprise Features',
+          text: '解锁企业功能',
           href: '#',
         },
       },
@@ -276,28 +276,28 @@ const metadata = {
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="Frequently Asked Questions"
+    title="常见问题"
     items={[
       {
-        title: 'Is AstroWind compatible with the latest versions of Astro and Tailwind CSS?',
+        title: 'AstroWind是否与最新版本的Astro和Tailwind CSS兼容？',
         description:
-          'Yes, AstroWind is designed to be compatible with the latest versions of both Astro and Tailwind CSS. This ensures that you can harness the full capabilities of these technologies while benefiting from the features offered by AstroWind.',
+          '是的，AstroWind设计为与Astro和Tailwind CSS的最新版本兼容。这确保您可以充分利用这些技术的全部功能，同时受益于AstroWind提供的特性。',
         icon: 'tabler:chevrons-right',
       },
       {
-        title: 'Can I use AstroWind for both personal and commercial projects?',
-        description: `Certainly! AstroWind is versatile and can be used for a wide range of projects, including both personal and commercial endeavors. Whether you're building a professional portfolio, launching a startup, or creating a marketing website, AstroWind has you covered.`,
+        title: '我可以将AstroWind用于个人和商业项目吗？',
+        description: `当然！AstroWind用途广泛，可用于各种项目，包括个人和商业项目。无论您是构建专业作品集、启动初创企业还是创建营销网站，AstroWind都能满足您的需求。`,
         icon: 'tabler:chevrons-right',
       },
       {
-        title: 'What level of coding knowledge is required to use AstroWind?',
+        title: '使用AstroWind需要什么级别的编码知识？',
         description:
-          'While some familiarity with HTML, CSS, and web development concepts is helpful, the user-friendly interface and customization options allow those with limited coding experience to create impressive websites. For more advanced users, AstroWind offers extensive customization capabilities.',
+          '虽然对HTML、CSS和Web开发概念的一些熟悉度会有所帮助，但用户友好的界面和定制选项允许编码经验有限的人创建令人印象深刻的网站。对于更高级的用户，AstroWind提供广泛的定制能力。',
         icon: 'tabler:chevrons-right',
       },
       {
-        title: 'Is customer support available for AstroWind users seeking guidance?',
-        description: `Absolutely, our dedicated customer support team is here to assist you with any questions or challenges you may encounter. Feel free to reach out to us through our support channels, and we'll be happy to provide the help you need.`,
+        title: '寻求指导的AstroWind用户是否有客户支持？',
+        description: `当然，我们专门的客户支持团队随时准备协助您解决可能遇到的任何问题或挑战。请通过我们的支持渠道与我们联系，我们将很乐意为您提供所需的帮助。`,
         icon: 'tabler:chevrons-right',
       },
     ]}
@@ -310,25 +310,25 @@ const metadata = {
   <!-- Steps2 Widget ****************** -->
 
   <Steps2
-    title="Reach out to us"
-    subtitle="Have questions? Feel free to contact us using the form below. We're here to help!"
+    title="联系我们"
+    subtitle="有问题？请随时使用下面的表单联系我们。我们随时为您提供帮助！"
     callToAction={{
-      text: 'Contact us',
+      text: '联系我们',
       href: '/',
     }}
     items={[
       {
-        title: 'Email us',
-        description: 'contact@support.com',
+        title: '给我们发邮件',
+        description: '20253013****@hunnu.edu.cn',
         icon: 'tabler:mail',
       },
       {
-        title: 'Call us',
-        description: '+1 (234) 567-890',
+        title: '给我们打电话',
+        description: '暂未开放',
         icon: 'tabler:headset',
       },
       {
-        title: 'Follow us',
+        title: '关注我们',
         description: '@example',
         icon: 'tabler:brand-twitter',
       },
@@ -339,8 +339,8 @@ const metadata = {
 
   <BlogLatestPosts
     id="blog"
-    title="Stay informed with AstroWind's blog"
-    information={`Explore our collection of articles, guides, and tutorials on web development, design trends, and using AstroWind effectively for your projects.`}
+    title="通过AstroWind的博客保持了解"
+    information={`探索我们关于Web开发、设计趋势和有效使用AstroWind进行项目的文章、指南和教程集合。`}
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>

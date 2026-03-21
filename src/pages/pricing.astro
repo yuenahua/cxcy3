@@ -8,7 +8,7 @@ import Features3 from '~/components/widgets/Features3.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Pricing',
+  title: '价格',
 };
 ---
 
@@ -16,94 +16,94 @@ const metadata = {
   <!-- HeroText Widget ******************* -->
 
   <HeroText
-    tagline="Pricing"
-    title="Stellar Pricing for Every Journey"
-    subtitle="Choose the perfect plan that aligns with your cosmic goals."
+    tagline="价格"
+    title="为每个旅程提供卓越的价格"
+    subtitle="选择与您的目标相符的完美计划。"
   />
 
   <!-- Pricing Widget ******************* -->
 
   <Prices
-    title="Our prices"
-    subtitle="Only pay for what you need"
+    title="我们的价格"
+    subtitle="只为您需要的付费"
     prices={[
       {
-        title: 'basic',
-        subtitle: 'Optimal choice for personal use',
+        title: '基础',
+        subtitle: '个人使用的最佳选择',
         price: 29,
-        period: 'per month',
+        period: '每月',
         items: [
           {
-            description: 'Etiam in libero, et volutpat',
+            description: '基础模板访问',
           },
           {
-            description: 'Aenean ac nunc dolor tristique',
+            description: '基本支持',
           },
           {
-            description: 'Cras scelerisque accumsan lib',
+            description: '有限的定制选项',
           },
           {
-            description: 'In hac habitasse',
+            description: '个人使用许可',
           },
         ],
         callToAction: {
           target: '_blank',
-          text: 'Get started',
+          text: '开始使用',
           href: '#',
         },
       },
       {
-        title: 'standard',
-        subtitle: 'Optimal choice for small teams',
+        title: '标准',
+        subtitle: '小型团队的最佳选择',
         price: 69,
-        period: 'Per Month',
+        period: '每月',
         items: [
           {
-            description: 'Proin vel laoreet',
+            description: '所有基础功能',
           },
           {
-            description: 'Ut efficitur habitasse egestas',
+            description: '优先支持',
           },
           {
-            description: 'Volutpat hac curabitur',
+            description: '更多定制选项',
           },
           {
-            description: 'Pellentesque blandit ut nibh',
+            description: '团队使用许可',
           },
           {
-            description: 'Donec fringilla sem',
+            description: '高级模板访问',
           },
         ],
         callToAction: {
           target: '_blank',
-          text: 'Get started',
+          text: '开始使用',
           href: '#',
         },
         hasRibbon: true,
-        ribbonTitle: 'popular',
+        ribbonTitle: '热门',
       },
       {
-        title: 'premium',
-        subtitle: 'Optimal choice for companies',
+        title: '高级',
+        subtitle: '公司的最佳选择',
         price: 199,
-        period: 'Per Month',
+        period: '每月',
         items: [
           {
-            description: 'Curabitur suscipit risus',
+            description: '所有标准功能',
           },
           {
-            description: 'Aliquam habitasse malesuada',
+            description: '24/7 支持',
           },
           {
-            description: 'Suspendisse sit amet blandit',
+            description: '完全定制选项',
           },
           {
-            description: 'Suspendisse auctor blandit dui',
+            description: '商业使用许可',
           },
         ],
         callToAction: {
           target: '_blank',
-          text: 'Get started',
+          text: '开始使用',
           href: '#',
         },
       },
@@ -113,38 +113,38 @@ const metadata = {
   <!-- Features3 Widget ************** -->
 
   <Features3
-    title="Price-related features"
-    subtitle="Discover the advantages of choosing our plans"
+    title="价格相关特性"
+    subtitle="发现选择我们计划的优势"
     columns={2}
     items={[
       {
-        title: 'Tiered Pricing Plans',
-        description: 'Choose from a range of pricing plans designed to accommodate different budgets and requirements.',
+        title: '分层价格计划',
+        description: '从一系列价格计划中选择，这些计划专为适应不同预算和需求而设计。',
         icon: 'tabler:stairs',
       },
       {
-        title: 'Transparent Pricing',
-        description: 'Clearly displayed pricing details for each plan, with no hidden costs or unexpected charges.',
+        title: '透明定价',
+        description: '每个计划的价格详情清晰显示，没有隐藏成本或意外费用。',
         icon: 'tabler:flip-vertical',
       },
       {
-        title: 'Secure Payment Methods',
-        description: 'Secure payment gateways to protect your financial information during transactions.',
+        title: '安全支付方式',
+        description: '安全的支付网关，在交易过程中保护您的财务信息。',
         icon: 'tabler:shield-lock',
       },
       {
-        title: 'Instant Access',
-        description: `Immediate access to your chosen plan's features and templates upon subscription.`,
+        title: '即时访问',
+        description: `订阅后立即访问您所选计划的功能和模板。`,
         icon: 'tabler:accessible',
       },
       {
-        title: 'Upgrade Value',
-        description: 'Upgrade to higher-tier plans to unlock more features and benefits for an enhanced experience.',
+        title: '升级价值',
+        description: '升级到更高层级的计划，解锁更多功能和福利，获得增强的体验。',
         icon: 'tabler:chevrons-up',
       },
       {
-        title: '24H support',
-        description: 'Questions answered via live chat, email or phone, every calendar day.',
+        title: '24小时支持',
+        description: '通过实时聊天、电子邮件或电话回答问题，每个日历日都提供服务。',
         icon: 'tabler:headset',
       },
     ]}
@@ -154,36 +154,36 @@ const metadata = {
   <!-- Steps Widget ****************** -->
 
   <Steps
-    title="A guided journey from plans to creativity"
-    tagline="simplified process"
+    title="从计划到创意的引导之旅"
+    tagline="简化流程"
     isReversed={true}
     items={[
       {
-        title: 'Explore plans',
+        title: '浏览计划',
         icon: 'tabler:number-1',
       },
       {
-        title: 'Select a plan',
+        title: '选择计划',
         icon: 'tabler:number-2',
       },
       {
-        title: 'Sign Up / Log In',
+        title: '注册/登录',
         icon: 'tabler:number-3',
       },
       {
-        title: 'Review order',
+        title: '查看订单',
         icon: 'tabler:number-4',
       },
       {
-        title: 'Enter payment details',
+        title: '输入支付详情',
         icon: 'tabler:number-5',
       },
       {
-        title: 'Confirmation',
+        title: '确认',
         icon: 'tabler:number-6',
       },
       {
-        title: 'Download and start using the template(s)',
+        title: '下载并开始使用模板',
         icon: 'tabler:number-7',
       },
     ]}
@@ -196,34 +196,34 @@ const metadata = {
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="Pricing FAQs"
-    subtitle="Choosing the right plan is important, and we're here to answer your questions. If you have queries about our pricing options, you're in the right place."
+    title="价格常见问题"
+    subtitle="选择正确的计划很重要，我们在这里为您解答问题。如果您对我们的价格选项有疑问，您来对地方了。"
     columns={1}
     items={[
       {
-        title: 'Do the plans come with customer support?',
+        title: '计划是否包含客户支持？',
         description:
-          'Absolutely, all plans include access to our dedicated customer support to assist you with any queries or concerns.',
+          '当然，所有计划都包含访问我们专门的客户支持，以帮助您解决任何查询或疑虑。',
       },
       {
-        title: 'Is there a trial period for the different plans?',
+        title: '不同计划有试用期吗？',
         description:
-          "Unfortunately, we don't offer trial periods for the plans. However, you can check out our demo section to preview the quality of our templates.",
+          "不幸的是，我们不为计划提供试用期。但是，您可以查看我们的演示部分来预览我们模板的质量。",
       },
       {
-        title: 'Can I switch between plans?',
+        title: '我可以在计划之间切换吗？',
         description:
-          'Certainly! You can easily upgrade or downgrade your plan, at any time, to find the one that best suits your evolving requirements.',
+          '当然！您可以随时轻松升级或降级您的计划，以找到最适合您不断变化需求的计划。',
       },
       {
-        title: 'What payment methods do you accept?',
+        title: '你们接受哪些支付方式？',
         description:
-          'We accept major credit cards and online payment methods to ensure a convenient and secure transaction process.',
+          '我们接受主要信用卡和在线支付方式，以确保便捷安全的交易过程。',
       },
       {
-        title: 'Are there any hidden fees beyond the displayed cost?',
+        title: '除了显示的成本外，还有任何隐藏费用吗？',
         description:
-          'No, the subscription cost covers all the features and templates listed under each plan. There are no hidden fees or extra charges.',
+          '不，订阅费用涵盖每个计划下列出的所有功能和模板。没有隐藏费用或额外收费。',
       },
     ]}
   />
@@ -231,12 +231,12 @@ const metadata = {
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
-    title="Ready to boost your projects?"
-    subtitle="Join our community of satisfied customers who have transformed their work with our templates."
+    title="准备好提升您的项目了吗？"
+    subtitle="加入我们的满意客户社区，他们已经通过我们的模板转变了他们的工作。"
     actions={[
       {
         variant: 'primary',
-        text: 'Get started now',
+        text: '立即开始',
         href: '/',
       },
     ]}

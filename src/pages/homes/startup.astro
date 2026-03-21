@@ -14,7 +14,7 @@ import Brands from '~/components/widgets/Brands.astro';
 import { YouTube } from 'astro-embed';
 
 const metadata = {
-  title: 'Startup Landing Page',
+  title: '初创企业登录页面',
 };
 ---
 
@@ -22,27 +22,25 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    tagline="Startup Web Demo"
+    tagline="初创企业网站演示"
     actions={[
       {
         variant: 'primary',
         target: '_blank',
-        text: 'Get templates',
+        text: '获取模板',
         href: 'https://github.com/onwidget/astrowind',
         icon: 'tabler:download',
       },
-      { text: 'Learn more', href: '#features' },
+      { text: '了解更多', href: '#features' },
     ]}
   >
     <Fragment slot="title">
-      Improve <span class="hidden sm:inline">the online presence of</span> your <span
-        class="text-accent dark:text-white highlight">Startup</span
-      > with Astrowind templates
+      提升 <span class="hidden sm:inline">您的</span> 初创企业的 <span
+        class="text-accent dark:text-white highlight">在线存在</span> 使用Astrowind模板
     </Fragment>
 
     <Fragment slot="subtitle">
-      Step into the spotlight with <span class="font-semibold">Astrowind</span> templates, your pathway to fortifying your
-      startup's digital footprint, fostering credibility, and expanding your reach.
+      使用 <span class="font-semibold">Astrowind</span> 模板踏入聚光灯下，这是您加强初创企业数字足迹、培养信誉和扩大影响力的途径。
     </Fragment>
 
     <Fragment slot="image">
@@ -59,8 +57,8 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="About us"
-    subtitle="We believe in the magic of turning dreams into stunning realities. Founded by passionate developers with a shared vision, we set out to simplify the website creation process. Our templates bring together the innovation of Astro 4.0 and the versatility of Tailwind CSS, enabling you to express your unique brand identity like never before."
+    title="关于我们"
+    subtitle="我们相信将梦想转化为令人惊叹的现实的魔力。由具有共同愿景的热情开发者创立，我们着手简化网站创建过程。我们的模板将Astro 4.0的创新与Tailwind CSS的多功能性结合在一起，让您以前所未有的方式表达您独特的品牌身份。"
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
@@ -70,21 +68,21 @@ const metadata = {
   <!-- Stats Widget ****************** -->
 
   <Stats
-    title="Discover the impressive impact of Astrowind"
-    subtitle="The numbers below reflect the trust our users have placed in us and the remarkable outcomes we've helped them achieve."
+    title="发现Astrowind的令人印象深刻的影响"
+    subtitle="下面的数字反映了我们的用户对我们的信任以及我们帮助他们实现的显著成果。"
     stats={[
-      { title: 'Downloads', amount: '182K' },
-      { title: 'Websites Launched', amount: '87' },
-      { title: 'User Ratings', amount: '4.8' },
-      { title: 'Satisfied Clients', amount: '116K' },
+      { title: '下载量', amount: '182K' },
+      { title: '已启动网站', amount: '87' },
+      { title: '用户评分', amount: '4.8' },
+      { title: '满意客户', amount: '116K' },
     ]}
   />
 
   <!-- Brands Widget ****************** -->
 
   <Brands
-    title="Partnerships & Collaborations"
-    subtitle="At Astrowind, we believe in the power of collaboration to drive innovation and create exceptional experiences."
+    title="合作伙伴关系与协作"
+    subtitle="在Astrowind，我们相信协作的力量可以推动创新并创造卓越的体验。"
     icons={[]}
     images={[
       {
@@ -130,25 +128,25 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="What services do we provide?"
-    subtitle="We offer a wide range of website templates that suit various industries and purposes such as business, portfolio, e-commerce, blog, etc."
+    title="我们提供什么服务？"
+    subtitle="我们提供广泛的网站模板，适合各种行业和用途，如商业、作品集、电子商务、博客等。"
     items={[
       {
-        title: 'Installation Instructions',
+        title: '安装说明',
         description:
-          'Offer clear instructions on how to download the purchased templates and install them on various website platforms or content management systems.',
+          '提供清晰的说明，说明如何下载购买的模板并在各种网站平台或内容管理系统上安装它们。',
         icon: 'flat-color-icons:document',
       },
       {
-        title: 'Demo and Previews',
+        title: '演示和预览',
         description:
-          'Provide interactive demos and previews that allow customers to see how their chosen template will look and function before making a purchase.',
+          '提供交互式演示和预览，让客户在购买前查看他们选择的模板的外观和功能。',
         icon: 'flat-color-icons:template',
       },
       {
-        title: 'Technical Support',
+        title: '技术支持',
         description:
-          'Providing customer support for any technical issues related to the templates or their implementation.',
+          '为与模板或其实施相关的任何技术问题提供客户支持。',
         icon: 'flat-color-icons:voice-presentation',
       },
     ]}
@@ -162,41 +160,41 @@ const metadata = {
 
   <Features
     id="features"
-    title="Main features of our templates"
-    subtitle="Possess several key characteristics to effectively cater to the needs of startups and entrepreneurs."
+    title="我们模板的主要特点"
+    subtitle="具有几个关键特性，可有效满足初创企业和企业家的需求。"
     columns={3}
     items={[
       {
-        title: 'Modern and Professional Design',
+        title: '现代专业设计',
         description:
-          'Have a contemporary design that reflects current design trends and gives a professional impression.',
+          '具有反映当前设计趋势的现代设计，给人专业的印象。',
         icon: 'tabler:artboard',
       },
       {
-        title: 'Responsive and Mobile-Friendly',
-        description: 'Adapt seamlessly to different screen sizes and devices to ensure a consistent experience.',
+        title: '响应式和移动友好',
+        description: '无缝适应不同屏幕尺寸和设备，确保一致的体验。',
         icon: 'tabler:picture-in-picture',
       },
       {
-        title: 'Customizability',
+        title: '可定制性',
         description:
-          'Easily customizable, allowing users to adapt the design, colors, typography, and content to match their brand identity.',
+          '易于定制，允许用户调整设计、颜色、排版和内容以匹配其品牌身份。',
         icon: 'tabler:adjustments-horizontal',
       },
       {
-        title: 'Fast Loading Times',
-        description: 'Optimized for speed to ensure a smooth user experience and favorable search engine rankings.',
+        title: '快速加载时间',
+        description: '针对速度进行优化，确保流畅的用户体验和良好的搜索引擎排名。',
         icon: 'tabler:rocket',
       },
       {
-        title: 'Search Engine Optimization (SEO)',
+        title: '搜索引擎优化（SEO）',
         description:
-          'Incorporate SEO best practices in template structure and code to improve visibility in search engine results.',
+          '在模板结构和代码中融入SEO最佳实践，以提高在搜索引擎结果中的可见性。',
         icon: 'tabler:arrows-right-left',
       },
       {
-        title: 'Compatibility',
-        description: 'The templates work seamlessly across various content management systems and website builders.',
+        title: '兼容性',
+        description: '模板可在各种内容管理系统和网站构建器上无缝工作。',
         icon: 'tabler:plug-connected',
       },
     ]}
@@ -205,37 +203,37 @@ const metadata = {
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="Frequently Asked Questions"
+    title="常见问题"
     items={[
       {
-        title: 'What are landing page templates?',
+        title: '什么是登录页面模板？',
         description:
-          'Landing page templates are pre-designed web page layouts that are specifically created to serve as a foundation for building effective landing pages. These templates are designed to capture the attention of visitors and guide them towards a specific action or goal, such as signing up for a newsletter, making a purchase, or downloading a resource.',
+          '登录页面模板是预先设计的网页布局，专门创建为构建有效登录页面的基础。这些模板旨在吸引访问者的注意力并引导他们朝着特定的行动或目标前进，例如注册通讯、购买或下载资源。',
       },
       {
-        title: 'Why should I use a template?',
+        title: '为什么我应该使用模板？',
         description:
-          'Some of the advantages are that they provide a ready-to-use structure,  saving you significant time. Are designed with user-friendliness in mind and provide a cost-effective alternative, saving you money while still delivering a quality result.',
+          '一些优势包括它们提供即用型结构，节省您大量时间。设计时考虑了用户友好性，并提供了具有成本效益的替代方案，在节省资金的同时仍能提供高质量的结果。',
       },
       {
-        title: 'Can I preview templates before buying?',
+        title: '我可以在购买前预览模板吗？',
         description:
-          'Yes, the templates allow you to preview them before making a purchase. There is a "Demo" button associated with each template.',
+          '是的，模板允许您在购买前预览它们。每个模板都有一个"演示"按钮。',
       },
       {
-        title: 'Do I need technical skills to use a template?',
+        title: '使用模板需要技术技能吗？',
         description:
-          'Advanced technical skills are not required to use a template, but having a basic understanding of web navigation and familiarity with using online tools can still be beneficial. If you have more specific customization needs, you might need to consult guides or reach out to customer support for assistance.',
+          '使用模板不需要高级技术技能，但对Web导航有基本了解并熟悉使用在线工具仍然会有所帮助。如果您有更具体的定制需求，可能需要查阅指南或联系客户支持寻求帮助。',
       },
       {
-        title: 'Can I use the template on multiple websites?',
+        title: '我可以在多个网站上使用模板吗？',
         description:
-          'No, the template comes with a single-use license, meaning you can use the template on one website or project only. Using the template on additional websites would require purchasing additional licenses.',
+          '不，模板附带单一使用许可证，意味着您只能在一个网站或项目上使用模板。在其他网站上使用模板需要购买额外的许可证。',
       },
       {
-        title: 'What if I need help with customization?',
+        title: '如果我需要定制帮助怎么办？',
         description:
-          "The templates provides a comprehensive step-by-step guide that walk you through the customization process. If you still have doubts, you can reach out to our customer support team. They can answer your questions, provide guidance on customization, and address any issues you're facing.",
+          "模板提供了全面的分步指南，引导您完成定制过程。如果您仍然有疑问，可以联系我们的客户支持团队。他们可以回答您的问题，提供定制指导，并解决您面临的任何问题。",
       },
     ]}
   >
@@ -247,46 +245,46 @@ const metadata = {
   <!-- Features3 Widget ************** -->
 
   <Features3
-    title="Let us know how we can help"
-    subtitle="We’re here to help and answer any question you might have."
+    title="让我们知道我们如何帮助您"
+    subtitle="我们在这里帮助您并回答您可能有的任何问题。"
     columns={4}
     items={[
       {
-        title: 'Phone',
+        title: '电话',
         icon: 'tabler:phone',
         callToAction: {
           target: '_blank',
-          text: 'Call us',
+          text: '给我们打电话',
           href: '/',
           variant: 'link',
         },
       },
       {
-        title: 'Email',
+        title: '电子邮件',
         icon: 'tabler:mail',
         callToAction: {
           target: '_blank',
-          text: 'Write to us',
+          text: '给我们写信',
           href: '/',
           variant: 'link',
         },
       },
       {
-        title: 'Chat with sales',
+        title: '与销售聊天',
         icon: 'tabler:message-circle',
         callToAction: {
           target: '_blank',
-          text: 'Start chatting',
+          text: '开始聊天',
           href: '/',
           variant: 'link',
         },
       },
       {
-        title: 'Chat with support',
+        title: '与支持聊天',
         icon: 'tabler:message-circle',
         callToAction: {
           target: '_blank',
-          text: 'Start chatting',
+          text: '开始聊天',
           href: '/',
           variant: 'link',
         },
@@ -301,17 +299,16 @@ const metadata = {
       {
         variant: 'primary',
         target: '_blank',
-        text: 'Get templates',
+        text: '获取模板',
         href: 'https://github.com/onwidget/astrowind',
         icon: 'tabler:download',
       },
     ]}
   >
-    <Fragment slot="title">Be a part of our vision</Fragment>
+    <Fragment slot="title">成为我们愿景的一部分</Fragment>
 
     <Fragment slot="subtitle">
-      Discover a dynamic work environment, unparalleled growth opportunities, and the chance to make a meaningful
-      impact.
+      发现充满活力的工作环境、无与伦比的成长机会，以及产生有意义影响的机会。
     </Fragment>
   </CallToAction>
 </Layout>

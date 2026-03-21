@@ -5,73 +5,73 @@ import ContactUs from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
-  title: 'Contact',
+  title: '联系我们',
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
 
-  <HeroText tagline="Contact" title="Let's Connect!" />
+  <HeroText tagline="联系" title="让我们联系！" />
 
   <ContactUs
     id="form"
-    title="Drop us a message today!"
-    subtitle="For quicker answers, explore our FAQs section. You may find the solution you're looking  for right there! If not, our support team is delighted to help you."
+    title="今天给我们留言！"
+    subtitle="为了更快地获得答案，请浏览我们的常见问题部分。您可能会在那里找到您正在寻找的解决方案！如果没有，我们的支持团队很乐意帮助您。"
     inputs={[
       {
         type: 'text',
         name: 'name',
-        label: 'Name',
+        label: '姓名',
       },
       {
         type: 'email',
         name: 'email',
-        label: 'Email',
+        label: '邮箱',
       },
     ]}
     textarea={{
-      label: 'Message',
+      label: '留言',
     }}
     disclaimer={{
       label:
-        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
+        '通过提交此联系表单，您确认并同意我们收集您的个人信息。',
     }}
-    description="Our support team typically responds within 24 business hours."
+    description="我们的支持团队通常会在 24 个工作小时内回复。"
   />
 
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="We are here to help!"
+    title="我们随时为您服务！"
     items={[
       {
-        title: 'General support',
-        description: `Chat with us for inquiries related to account management, website navigation, payment issues, accessing purchased templates or general questions about the website's functionality.`,
+        title: '一般支持',
+        description: `与我们聊天，了解与账户管理、网站导航、付款问题、访问已购买的模板或有关网站功能的一般问题。`,
       },
       {
-        title: 'Contact sales',
+        title: '联系销售',
         description:
-          'Chat with us for questions about purchases, customization options, licensing for commercial use, inquiries about specific template, etc.',
+          '与我们聊天，了解有关购买、定制选项、商业使用许可、特定模板的查询等问题。',
       },
       {
-        title: 'Technical support',
+        title: '技术支持',
         description:
-          'Chat with us when facing issues like template installation, problems editing difficulties, compatibility issues with software or download errors, or other technical challenges related to using the templates.',
+          '当您面临模板安装、编辑困难、软件兼容性问题或下载错误，或其他与使用模板相关的技术挑战时，请与我们聊天。',
       },
       {
-        title: 'Phone',
-        description: '+1 (234) 567-890',
+        title: '电话',
+        description: '暂未开放',
         icon: 'tabler:headset',
       },
       {
-        title: 'Email',
-        description: 'contact@support.com',
+        title: '邮箱',
+        description: '20253013****@hunnu.edu.cn',
         icon: 'tabler:mail',
       },
       {
-        title: 'Location',
-        description: '1234 Lorem Ipsum St, 12345, Miami, EEUU',
+        title: '地址',
+        description: '中国 湖南省 长沙市 岳麓区',
         icon: 'tabler:map-pin',
       },
     ]}

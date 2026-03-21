@@ -12,7 +12,7 @@ import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import { getPermalink } from '~/utils/permalinks';
 
 const metadata = {
-  title: 'Personal Homepage Demo',
+  title: '个人主页演示',
 };
 ---
 
@@ -21,16 +21,16 @@ const metadata = {
   <Fragment slot="header">
     <Header
       links={[
-        { text: 'Home', href: '#' },
-        { text: 'About', href: '#about' },
-        { text: 'Resume', href: '#resume' },
-        { text: 'Porfolio', href: '#porfolio' },
-        { text: 'Blog', href: '#blog' },
+        { text: '首页', href: '#' },
+        { text: '关于', href: '#about' },
+        { text: '简历', href: '#resume' },
+        { text: '作品集', href: '#porfolio' },
+        { text: '博客', href: '#blog' },
         { text: 'Github', href: 'https://github.com/onwidget' },
       ]}
       actions={[
         {
-          text: 'Hire me',
+          text: '雇佣我',
           href: '#',
         },
       ]}
@@ -44,13 +44,11 @@ const metadata = {
   <Hero
     id="hero"
     title="Sarah Johnson"
-    tagline="Personal Web Demo"
-    actions={[{ variant: 'primary', text: 'Hire me', href: getPermalink('/contact#form') }]}
+    tagline="个人网站演示"
+    actions={[{ variant: 'primary', text: '雇佣我', href: getPermalink('/contact#form') }]}
   >
     <Fragment slot="subtitle">
-      I'm a Graphic Designer passionate about crafting visual stories. <br /> With 5 years of experience and a degree from
-      New York University's School of Design. I infuse vitality into brands and designs, transforming concepts into captivating
-      realities.
+      我是一名热衷于创作视觉故事的平面设计师。<br /> 拥有5年经验，毕业于纽约大学设计学院。我为品牌和设计注入活力，将概念转化为引人入胜的现实。
     </Fragment>
   </Hero>
 
@@ -92,18 +90,16 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">About me</h2>
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">关于我</h2>
       <p>
-        Welcome to my creative journey. My work is a testament to my commitment to bringing ideas to life, where each
-        pixel becomes a brushstroke in the canvas of imagination.
+        欢迎来到我的创作之旅。我的作品证明了我致力于将想法变为现实，每个像素都成为想象画布上的笔触。
       </p>
       <br />
       <p>
-        I find inspiration in the world around me, whether through the pages of a captivating novel, the intricate
-        details of typography, or the vibrant hues of nature during my outdoor escapades.
+        我从周围的世界中寻找灵感，无论是通过引人入胜的小说页面、排版的复杂细节，还是户外探险时大自然的鲜艳色彩。
       </p>
       <br />
-      <p>If you're curious to dive deeper into my work, you can follow me:</p>
+      <p>如果您想更深入地了解我的作品，您可以关注我：</p>
     </Fragment>
 
     <Fragment slot="bg">
@@ -115,18 +111,18 @@ const metadata = {
 
   <Steps
     id="resume"
-    title="Work experience"
+    title="工作经验"
     items={[
       {
         title:
-          'Graphic Designer <br /> <span class="font-normal">ABC Design Studio, New York, NY</span> <br /> <span class="text-sm font-normal">2021 - Present</span>',
-        description: `Collaborate with clients to understand design requirements and objectives. <br /> Develop branding solutions, including logos, color palettes, and brand guidelines. <br /> Design marketing materials such as brochures, posters, and digital assets. <br /> Create visually appealing user interfaces for websites and applications.`,
+          '平面设计师 <br /> <span class="font-normal">ABC设计工作室，纽约，纽约</span> <br /> <span class="text-sm font-normal">2021年 - 至今</span>',
+        description: `与客户合作，了解设计需求和目标。<br /> 开发品牌解决方案，包括标志、调色板和品牌指南。<br /> 设计营销材料，如手册、海报和数字资产。<br /> 为网站和应用程序创建视觉吸引力的用户界面。`,
         icon: 'tabler:briefcase',
       },
       {
         title:
-          'Junior Graphic Designer <br /> <span class="font-normal">XYZ Creative Agency, Los Angeles, CA</span> <br /> <span class="text-sm font-normal">2018 - 2021</span>',
-        description: `Assisted senior designers in creating design concepts and visual assets. <br /> Contributed to the development of brand identities and marketing collateral. <br /> Collaborated with the marketing team to ensure consistent design across campaigns. <br /> Gained hands-on experience in various design software and tools.`,
+          '初级平面设计师 <br /> <span class="font-normal">XYZ创意机构，洛杉矶，加利福尼亚</span> <br /> <span class="text-sm font-normal">2018年 - 2021年</span>',
+        description: `协助高级设计师创建设计概念和视觉资产。<br /> 参与品牌标识和营销材料的开发。<br /> 与营销团队合作，确保活动设计的一致性。<br /> 获得各种设计软件和工具的实践经验。`,
         icon: 'tabler:briefcase',
       },
     ]}
@@ -137,14 +133,14 @@ const metadata = {
 
   <Steps
     id="resume"
-    title="Education"
+    title="教育经历"
     items={[
       {
-        title: `Master of Fine Arts in Graphic Design <br /> <span class="font-normal">New York University's School of Design</span> <br /> <span class="text-sm font-normal">2018 - 2020</span>`,
+        title: `平面设计艺术硕士 <br /> <span class="font-normal">纽约大学设计学院</span> <br /> <span class="text-sm font-normal">2018年 - 2020年</span>`,
         icon: 'tabler:school',
       },
       {
-        title: `Bachelor of Arts in Graphic Design <br /> <span class="font-normal">New York University's School of Design</span> <br /> <span class="text-sm font-normal">2014 - 2018</span>`,
+        title: `平面设计艺术学士 <br /> <span class="font-normal">纽约大学设计学院</span> <br /> <span class="text-sm font-normal">2014年 - 2018年</span>`,
         icon: 'tabler:school',
       },
     ]}
@@ -154,46 +150,46 @@ const metadata = {
   <!-- Features3 Widget ************** -->
 
   <Features3
-    title="Skills"
-    subtitle="Discover the proficiencies that allow me to bring imagination to life through design."
+    title="技能"
+    subtitle="发现让我通过设计将想象变为现实的专业能力。"
     columns={3}
     defaultIcon="tabler:point-filled"
     items={[
       {
-        title: 'Graphic design',
-        description: 'Proficient in crafting visually appealing designs that convey messages effectively.',
+        title: '平面设计',
+        description: '精通创作视觉吸引力强、能有效传达信息的设计。',
       },
       {
-        title: 'Branding and identity',
-        description: 'Skilled at developing cohesive brand identities, including logos and brand guidelines.',
+        title: '品牌和标识',
+        description: '擅长开发连贯的品牌标识，包括标志和品牌指南。',
       },
       {
-        title: 'User-centered design',
-        description: 'Experienced in creating user-friendly interfaces and optimizing user experiences.',
+        title: '用户中心设计',
+        description: '有创建用户友好界面和优化用户体验的经验。',
       },
       {
-        title: 'Adobe Creative Suite',
-        description: 'Skilled in using Photoshop, Illustrator, and InDesign to create and edit visual elements.',
+        title: 'Adobe创意套件',
+        description: '熟练使用Photoshop、Illustrator和InDesign创建和编辑视觉元素。',
       },
       {
-        title: 'Typography',
-        description: 'Adept in selecting and manipulating typefaces to enhance design aesthetics.',
+        title: '排版',
+        description: '擅长选择和操作字体以增强设计美感。',
       },
       {
-        title: 'Color theory',
-        description: 'Proficient in using color to evoke emotions and enhance visual harmony.',
+        title: '色彩理论',
+        description: '精通使用色彩唤起情感并增强视觉和谐。',
       },
       {
-        title: 'Print and digital design',
-        description: 'Knowledgeable in designing for both print materials and digital platforms.',
+        title: '印刷和数字设计',
+        description: '了解为印刷材料和数字平台设计。',
       },
       {
-        title: 'Attention to detail',
-        description: 'Diligent in maintaining precision and quality in all design work.',
+        title: '注重细节',
+        description: '在所有设计工作中保持精确和质量。',
       },
       {
-        title: 'Adaptability',
-        description: 'Quick to adapt to new design trends, technologies, and client preferences.',
+        title: '适应性',
+        description: '快速适应新的设计趋势、技术和客户偏好。',
       },
     ]}
   />
@@ -202,19 +198,19 @@ const metadata = {
 
   <Content
     id="porfolio"
-    title="Elevating visual narratives"
-    subtitle="Embark on a design journey that surpasses pixels, entering a realm of imagination. Explore my portfolio, where passion and creativity converge to shape enthralling visual narratives."
+    title="提升视觉叙事"
+    subtitle="踏上超越像素的设计之旅，进入想象的领域。探索我的作品集，在这里激情和创造力汇聚，塑造引人入胜的视觉叙事。"
     isReversed
     items={[
       {
-        title: 'Description:',
+        title: '描述：',
         description:
-          'Developed a comprehensive brand identity for a tech startup, Tech Innovators, specializing in disruptive innovations. The goal was to convey a modern yet approachable image that resonated with both corporate clients and tech enthusiasts.',
+          '为专注于颠覆性创新的科技初创公司Tech Innovators开发了全面的品牌标识。目标是传达现代而平易近人的形象，同时吸引企业客户和科技爱好者。',
       },
       {
-        title: 'Role:',
+        title: '角色：',
         description:
-          'Led the entire branding process from concept to execution. Created a dynamic logo that symbolized innovation, selected a vibrant color palette, and I designed corporate stationery, website graphics, and social media assets.',
+          '领导从概念到执行的整个品牌塑造过程。创建了象征创新的动态标志，选择了充满活力的调色板，并设计了企业文具、网站图形和社交媒体资产。',
       },
     ]}
     image={{
@@ -223,14 +219,14 @@ const metadata = {
     }}
     callToAction={{
       target: '_blank',
-      text: 'Go to the project',
+      text: '前往项目',
       icon: 'tabler:chevron-right',
       href: '#',
     }}
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Project 1: <br /><span class="text-2xl">Brand identity for tech innovators</span>
+        项目1：<br /><span class="text-2xl">科技创新者的品牌标识</span>
       </h3>
     </Fragment>
 
@@ -246,13 +242,13 @@ const metadata = {
     isAfterContent={true}
     items={[
       {
-        title: 'Description:',
+        title: '描述：',
         description:
-          'Designed a captivating event poster for an art and music festival, "ArtWave Fusion," aiming to showcase the synergy between visual art and music genres.',
+          '为艺术和音乐节"ArtWave Fusion"设计了一张引人入胜的活动海报，旨在展示视觉艺术和音乐流派之间的协同作用。',
       },
       {
-        title: 'Role:',
-        description: `Translated the festival's creative theme into a visually striking poster. Used bold typography, vibrant colors, and abstract elements to depict the fusion of art and music. Ensured the design captured the festival's vibrant atmosphere.`,
+        title: '角色：',
+        description: `将音乐节的创意主题转化为视觉冲击力强的海报。使用大胆的排版、鲜艳的色彩和抽象元素来描绘艺术与音乐的融合。确保设计捕捉到音乐节的活力氛围。`,
       },
     ]}
     image={{
@@ -261,14 +257,14 @@ const metadata = {
     }}
     callToAction={{
       target: '_blank',
-      text: 'Go to the project',
+      text: '前往项目',
       icon: 'tabler:chevron-right',
       href: '#',
     }}
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Project 2: <br /><span class="text-2xl">Event poster for art & music festival</span>
+        项目2：<br /><span class="text-2xl">艺术与音乐节活动海报</span>
       </h3>
     </Fragment>
 
@@ -284,12 +280,12 @@ const metadata = {
     isAfterContent={true}
     items={[
       {
-        title: 'Description:',
-        description: `Redesigned the e-commerce website for an eco-conscious fashion brand, GreenVogue. The objective was to align the brand's online presence with its sustainable ethos and improve user experience.`,
+        title: '描述：',
+        description: `为环保时尚品牌GreenVogue重新设计了电子商务网站。目标是使品牌的在线形象与其可持续发展理念保持一致，并改善用户体验。`,
       },
       {
-        title: 'Role:',
-        description: `Conducted a thorough analysis of the brand's values and customer base to inform the design direction. Created a visually appealing interface with intuitive navigation, highlighting sustainable materials, and integrating a user-friendly shopping experience.`,
+        title: '角色：',
+        description: `对品牌价值和客户群进行了全面分析，为设计方向提供信息。创建了视觉吸引力强的界面，具有直观的导航，突出可持续材料，并整合了用户友好的购物体验。`,
       },
     ]}
     image={{
@@ -298,14 +294,14 @@ const metadata = {
     }}
     callToAction={{
       target: '_blank',
-      text: 'Go to the project',
+      text: '前往项目',
       icon: 'tabler:chevron-right',
       href: '#',
     }}
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Project 3: <br /><span class="text-2xl">E-commerce website redesign for fashion brand</span>
+        项目3：<br /><span class="text-2xl">时尚品牌电子商务网站重新设计</span>
       </h3>
     </Fragment>
 
@@ -317,20 +313,20 @@ const metadata = {
   <!-- Testimonials Widget *********** -->
 
   <Testimonials
-    title="Client testimonials"
-    subtitle="Discover what clients have to say about their experiences working with me."
+    title="客户评价"
+    subtitle="了解客户对与我合作的体验有什么评价。"
     testimonials={[
       {
-        testimonial: `She took our vague concept and turned it into a visual masterpiece that perfectly aligned with our goals. Her attention to detail and ability to translate ideas into compelling visuals exceeded our expectations.`,
+        testimonial: `她将我们模糊的概念转化为视觉杰作，完美符合我们的目标。她对细节的关注和将想法转化为引人注目的视觉效果的能力超出了我们的期望。`,
         name: 'Mark Thompson',
-        job: 'Creative director',
+        job: '创意总监',
         image: {
           src: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
           alt: 'Mark Thompson Image',
         },
       },
       {
-        testimonial: `She transformed our brand identity with her creative finesse, capturing our essence in every element. Her dedication and talent truly shine through her work.`,
+        testimonial: `她以创意技巧转变了我们的品牌标识，在每个元素中捕捉我们的本质。她的奉献精神和才华在她的作品中真正闪耀。`,
         name: 'Emily Martinez',
         job: 'CEO',
         image: {
@@ -339,36 +335,36 @@ const metadata = {
         },
       },
       {
-        testimonial: `She has an uncanny ability to communicate emotions and stories. She crafted a logo for our NGO that not only represents our cause but also evokes empathy. Her professionalism and commitment make her a designer of exceptional caliber.`,
+        testimonial: `她有一种不可思议的能力，可以传达情感和故事。她为我们的非政府组织设计了一个标志，不仅代表我们的事业，还唤起了共鸣。她的专业精神和承诺使她成为一位卓越的设计师。`,
         name: 'Laura Simmons',
-        job: 'Founder of an NGO',
+        job: '非政府组织创始人',
         image: {
           src: 'https://images.unsplash.com/photo-1554727242-741c14fa561c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
           alt: 'Laura Simmons Image',
         },
       },
       {
-        testimonial: `We entrusted Sarah with revamping our website's user interface, and the results were astounding. Her intuitive design sense enhanced user experience, leading to a significant increase in engagement. She's a designer who truly understands the synergy of aesthetics and functionality.`,
+        testimonial: `我们委托Sarah重新设计我们网站的用户界面，结果令人震惊。她直观的设计感增强了用户体验，导致参与度显著增加。她是一位真正理解美学和功能协同作用的设计师。`,
         name: 'Alex Foster',
-        job: 'Director of web services',
+        job: '网络服务总监',
         image: {
           src: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
           alt: 'Alex Foster Image',
         },
       },
       {
-        testimonial: `She took our vision and elevated it beyond imagination. Her ability to capture brand essence and translate it into design is nothing short of remarkable. Working with her has been an inspiring journey.`,
+        testimonial: `她接受了我们的愿景，并将其提升到想象之外。她捕捉品牌本质并将其转化为设计的能力令人惊叹。与她合作是一段鼓舞人心的旅程。`,
         name: 'Jessica Collins',
-        job: 'Product Manager',
+        job: '产品经理',
         image: {
           src: 'https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=778&q=80',
           alt: 'Jessica Collins Image',
         },
       },
       {
-        testimonial: `Her ability to transform concepts into captivating visuals is nothing short of extraordinary. She took our event poster idea and turned it into a visual masterpiece that perfectly captured the essence of our festival. Sarah's dedication, creativity, and knack for delivering beyond expectations make her an invaluable asset to any project.`,
+        testimonial: `她将概念转化为引人入胜的视觉效果的能力非常出色。她将我们的活动海报想法转化为视觉杰作，完美捕捉了我们节日的精髓。Sarah的奉献精神、创造力和超越期望的能力使她成为任何项目的宝贵资产。`,
         name: 'Michael Carter',
-        job: 'Event Coordinator',
+        job: '活动协调员',
         image: {
           src: 'https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
           alt: 'Michael Carter Image',
@@ -380,12 +376,12 @@ const metadata = {
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
-    title="Let's create together"
-    subtitle="Ready to transform your vision into captivating designs?"
+    title="让我们一起创造"
+    subtitle="准备好将您的愿景转化为引人入胜的设计了吗？"
     actions={[
       {
         variant: 'primary',
-        text: 'Hire me',
+        text: '雇佣我',
         href: '/',
       },
     ]}
@@ -395,8 +391,8 @@ const metadata = {
 
   <BlogLatestPosts
     id="blog"
-    title="Explore my insightful articles on my blog"
-    information={`Dive into a realm of design wisdom and creative inspiration, where you'll find invaluable insights, practical tips, and captivating narratives that elevate and enrich your creative journey.`}
+    title="探索我博客上的有见地文章"
+    information={`深入设计智慧和创意灵感的领域，在那里您会发现宝贵的见解、实用技巧和引人入胜的叙述，提升和丰富您的创意之旅。`}
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
