@@ -1,120 +1,120 @@
 ---
-title: 'Terms and Conditions'
+title: '条款和条件'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_Last updated_: January 06, 2023
+_最后更新_: 2026年3月21日
 
-Please read these terms and conditions carefully before using Our Service.
+请在使用我们的服务前仔细阅读这些条款和条件。
 
-## Interpretation and Definitions
+## 解释和定义
 
-### Interpretation
+### 解释
 
-The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+首字母大写的单词具有以下条件下定义的含义。以下定义在单数或复数形式中具有相同的含义。
 
-### Definitions
+### 定义
 
-For the purposes of these Terms and Conditions:
+就这些条款和条件而言：
 
-- **Affiliate** means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
+- **附属公司**指控制、被控制或与一方共同控制的实体，其中"控制"指拥有50%或以上的股份、股权或其他有权投票选举董事或其他管理机构的证券。
 
-- **Country** refers to: California, United States
+- **国家**指：中国
 
-- **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to AstroWind LLC, 1 Cupertino, CA 95014.
+- **公司**（在本协议中称为"公司"、"我们"、"我们的"）指我们的团队，地址为中国 湖南省 长沙市。
 
-- **Device** means any device that can access the Service such as a computer, a cellphone or a digital tablet.
+- **设备**指任何可以访问服务的设备，如计算机、手机或数字平板电脑。
 
-- **Service** refers to the Website.
+- **服务**指网站。
 
-- **Terms and Conditions** (also referred as "Terms") mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service. This Terms and Conditions agreement is a Demo.
+- **条款和条件**（也称为"条款"）指这些条款和条件，构成您与公司之间关于使用服务的完整协议。本条款和条件协议仅作为演示。
 
-- **Third-party Social Media Service** means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.
+- **第三方社交媒体服务**指由第三方提供的任何服务或内容（包括数据、信息、产品或服务），这些服务或内容可能由服务显示、包含或提供。
 
-- **Website** refers to AstroWind, accessible from [https://astrowind.vercel.app](https://astrowind.vercel.app)
+- **网站**指本网站，可从[https://cxcy3.pages.dev](https://cxcy3.pages.dev)访问
 
-- **You** means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
+- **您**指访问或使用服务的个人，或该个人代表其访问或使用服务的公司或其他法律实体（如适用）。
 
-## Acknowledgment
+## 确认
 
-These are the Terms and Conditions governing the use of this Service and the agreement that operates between You and the Company. These Terms and Conditions set out the rights and obligations of all users regarding the use of the Service.
+这些是管理本服务使用的条款和条件，以及在您和公司之间运作的协议。这些条款和条件规定了所有用户关于使用服务的权利和义务。
 
-Your access to and use of the Service is conditioned on Your acceptance of and compliance with these Terms and Conditions. These Terms and Conditions apply to all visitors, users and others who access or use the Service.
+您对服务的访问和使用取决于您对这些条款和条件的接受和遵守。这些条款和条件适用于所有访问或使用服务的访客、用户和其他人。
 
-By accessing or using the Service You agree to be bound by these Terms and Conditions. If You disagree with any part of these Terms and Conditions then You may not access the Service.
+通过访问或使用服务，您同意受这些条款和条件的约束。如果您不同意这些条款和条件的任何部分，那么您可能不会访问服务。
 
-You represent that you are over the age of 18\. The Company does not permit those under 18 to use the Service.
+您声明您已超过18岁。公司不允许18岁以下的人使用服务。
 
-Your access to and use of the Service is also conditioned on Your acceptance of and compliance with the Privacy Policy of the Company. Our Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your personal information when You use the Application or the Website and tells You about Your privacy rights and how the law protects You. Please read Our Privacy Policy carefully before using Our Service.
+您对服务的访问和使用还取决于您对公司隐私政策的接受和遵守。我们的隐私政策描述了我们在您使用应用程序或网站时收集、使用和披露您的个人信息的政策和程序，并告诉您关于您的隐私权利以及法律如何保护您。请在使用我们的服务前仔细阅读我们的隐私政策。
 
-## Links to Other Websites
+## 链接到其他网站
 
-Our Service may contain links to third-party web sites or services that are not owned or controlled by the Company.
+我们的服务可能包含指向非公司拥有或控制的第三方网站或服务的链接。
 
-The Company has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that the Company shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods or services available on or through any such web sites or services.
+公司对任何第三方网站或服务的内容、隐私政策或做法没有控制权，也不承担任何责任。您进一步确认并同意，公司不对因使用或依赖任何此类网站或服务上可用的任何内容、商品或服务而直接或间接造成的任何损害或损失负责。
 
-We strongly advise You to read the terms and conditions and privacy policies of any third-party web sites or services that You visit.
+我们强烈建议您阅读您访问的任何第三方网站或服务的条款和条件以及隐私政策。
 
-## Termination
+## 终止
 
-We may terminate or suspend Your access immediately, without prior notice or liability, for any reason whatsoever, including without limitation if You breach these Terms and Conditions.
+我们可以立即终止或暂停您的访问，无需事先通知或承担责任，无论出于任何原因，包括但不限于如果您违反这些条款和条件。
 
-Upon termination, Your right to use the Service will cease immediately.
+终止后，您使用服务的权利将立即终止。
 
-## Limitation of Liability
+## 责任限制
 
-Notwithstanding any damages that You might incur, the entire liability of the Company and any of its suppliers under any provision of this Terms and Your exclusive remedy for all of the foregoing shall be limited to the amount actually paid by You through the Service or 100 USD if You haven't purchased anything through the Service.
+尽管您可能遭受任何损害，公司及其任何供应商根据本条款的任何规定的全部责任以及您对上述所有事项的唯一补救措施应限于您通过服务实际支付的金额，或者如果您未通过服务购买任何东西，则为100美元。
 
-To the maximum extent permitted by applicable law, in no event shall the Company or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages for loss of profits, loss of data or other information, for business interruption, for personal injury, loss of privacy arising out of or in any way related to the use of or inability to use the Service, third-party software and/or third-party hardware used with the Service, or otherwise in connection with any provision of this Terms), even if the Company or any supplier has been advised of the possibility of such damages and even if the remedy fails of its essential purpose.
+在适用法律允许的最大范围内，在任何情况下，公司或其供应商均不对任何特殊、偶然、间接或后果性损害（包括但不限于因利润损失、数据或其他信息损失、业务中断、人身伤害、隐私损失而产生的损害，这些损害与使用或无法使用服务、与服务一起使用的第三方软件和/或第三方硬件有关，或以任何方式与本条款的任何规定有关）承担责任，即使公司或任何供应商已被告知此类损害的可能性，即使补救措施未能实现其基本目的。
 
-Some states do not allow the exclusion of implied warranties or limitation of liability for incidental or consequential damages, which means that some of the above limitations may not apply. In these states, each party's liability will be limited to the greatest extent permitted by law.
+某些州不允许排除默示保证或限制对偶然或后果性损害的责任，这意味着上述一些限制可能不适用于您。在这些州，各方的责任将限于法律允许的最大范围。
 
-## "AS IS" and "AS AVAILABLE" Disclaimer
+## "按原样"和"按可用状态"免责声明
 
-The Service is provided to You "AS IS" and "AS AVAILABLE" and with all faults and defects without warranty of any kind. To the maximum extent permitted under applicable law, the Company, on its own behalf and on behalf of its Affiliates and its and their respective licensors and service providers, expressly disclaims all warranties, whether express, implied, statutory or otherwise, with respect to the Service, including all implied warranties of merchantability, fitness for a particular purpose, title and non-infringement, and warranties that may arise out of course of dealing, course of performance, usage or trade practice. Without limitation to the foregoing, the Company provides no warranty or undertaking, and makes no representation of any kind that the Service will meet Your requirements, achieve any intended results, be compatible or work with any other software, applications, systems or services, operate without interruption, meet any performance or reliability standards or be error free or that any errors or defects can or will be corrected.
+服务按"原样"和"按可用状态"提供给您，存在所有故障和缺陷，不提供任何形式的保证。在适用法律允许的最大范围内，公司代表其自身及其附属公司及其各自的许可方和服务提供商，明确放弃所有关于服务的保证，无论是明示、默示、法定还是其他方式，包括所有关于适销性、特定用途适用性、所有权和不侵权的默示保证，以及可能因交易过程、履行过程、使用或贸易惯例而产生的保证。在不限制前述规定的情况下，公司不提供任何保证或承诺，也不作出任何形式的陈述，即服务将满足您的要求、实现任何预期结果、与任何其他软件、应用程序、系统或服务兼容或配合工作、不间断运行、满足任何性能或可靠性标准或无错误，或者任何错误或缺陷能够或将会被纠正。
 
-Without limiting the foregoing, neither the Company nor any of the company's provider makes any representation or warranty of any kind, express or implied: (i) as to the operation or availability of the Service, or the information, content, and materials or products included thereon; (ii) that the Service will be uninterrupted or error-free; (iii) as to the accuracy, reliability, or currency of any information or content provided through the Service; or (iv) that the Service, its servers, the content, or e-mails sent from or on behalf of the Company are free of viruses, scripts, trojan horses, worms, malware, timebombs or other harmful components.
+在不限制前述规定的情况下，公司或公司的任何提供商均不作出任何形式的明示或默示陈述或保证：(i)关于服务的运行或可用性，或其中包含的信息、内容和材料或产品；(ii)服务将是不间断或无错误的；(iii)关于通过服务提供的任何信息或内容的准确性、可靠性或时效性；或(iv)服务、其服务器、内容或代表公司发送的电子邮件不含病毒、脚本、特洛伊木马、蠕虫、恶意软件、定时炸弹或其他有害组件。
 
-Some jurisdictions do not allow the exclusion of certain types of warranties or limitations on applicable statutory rights of a consumer, so some or all of the above exclusions and limitations may not apply to You. But in such a case the exclusions and limitations set forth in this section shall be applied to the greatest extent enforceable under applicable law.
+某些司法管辖区不允许排除某些类型的保证或限制消费者适用的法定权利，因此上述部分或全部排除和限制可能不适用于您。但在这种情况下，本节规定的排除和限制应在适用法律允许的最大范围内适用。
 
-## Governing Law
+## 适用法律
 
-The laws of the Country, excluding its conflicts of law rules, shall govern this Terms and Your use of the Service. Your use of the Application may also be subject to other local, state, national, or international laws.
+国家的法律，排除其法律冲突规则，将管辖本条款和您对服务的使用。您对应用程序的使用也可能受其他地方、州、国家或国际法律的约束。
 
-## Disputes Resolution
+## 争议解决
 
-If You have any concern or dispute about the Service, You agree to first try to resolve the dispute informally by contacting the Company.
+如果您对服务有任何 concerns 或争议，您同意首先尝试通过联系公司以非正式方式解决争议。
 
-## For European Union (EU) Users
+## 对于欧盟（EU）用户
 
-If You are a European Union consumer, you will benefit from any mandatory provisions of the law of the country in which you are resident in.
+如果您是欧盟消费者，您将受益于您居住国法律的任何强制性规定。
 
-## United States Legal Compliance
+## 中国法律合规
 
-You represent and warrant that (i) You are not located in a country that is subject to the United States government embargo, or that has been designated by the United States government as a "terrorist supporting" country, and (ii) You are not listed on any United States government list of prohibited or restricted parties.
+您声明并保证：(i)您不在受中国政府禁运的国家；(ii)您未被列入任何中国政府的禁止或限制方名单。
 
-## Severability and Waiver
+## 可分割性和弃权
 
-### Severability
+### 可分割性
 
-If any provision of these Terms is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law and the remaining provisions will continue in full force and effect.
+如果这些条款的任何规定被认为不可执行或无效，该规定将被修改和解释，以在适用法律允许的最大范围内实现该规定的目标，其余规定将继续完全有效。
 
-### Waiver
+### 弃权
 
-Except as provided herein, the failure to exercise a right or to require performance of an obligation under these Terms shall not effect a party's ability to exercise such right or require such performance at any time thereafter nor shall the waiver of a breach constitute a waiver of any subsequent breach.
+除本文规定外，未行使权利或要求履行本条款下的义务不会影响一方此后行使该权利或要求该履行的能力，也不会构成对任何后续违约的弃权。
 
-## Translation Interpretation
+## 翻译解释
 
-These Terms and Conditions may have been translated if We have made them available to You on our Service. You agree that the original English text shall prevail in the case of a dispute.
+如果我们在服务上向您提供了这些条款和条件的翻译版本，这些条款和条件可能已被翻译。您同意在发生争议时，以原始中文文本为准。
 
-## Changes to These Terms and Conditions
+## 对这些条款和条件的变更
 
-We reserve the right, at Our sole discretion, to modify or replace these Terms at any time. If a revision is material We will make reasonable efforts to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at Our sole discretion.
+我们保留在我们 sole discretion 下随时修改或替换这些条款的权利。如果修订是重大的，我们将尽合理努力在任何新条款生效前至少提供30天的通知。什么构成重大变更将由我们自行决定。
 
-By continuing to access or use Our Service after those revisions become effective, You agree to be bound by the revised terms. If You do not agree to the new terms, in whole or in part, please stop using the website and the Service.
+通过在这些修订生效后继续访问或使用我们的服务，您同意受修订后的条款约束。如果您不同意新条款的全部或部分，请停止使用网站和服务。
 
-## Contact Us
+## 联系我们
 
-If you have any questions about these Terms and Conditions, You can contact us:
+如果您对这些条款和条件有任何问题，您可以联系我们：
 
-- By email: somecoolemail@domain.com
+- 通过电子邮件：20253013****@hunnu.edu.cn

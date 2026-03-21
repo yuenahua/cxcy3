@@ -12,7 +12,7 @@ import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import { getPermalink } from '~/utils/permalinks';
 
 const metadata = {
-  title: '个人主页演示',
+  title: '团队主页',
 };
 ---
 
@@ -30,7 +30,7 @@ const metadata = {
       ]}
       actions={[
         {
-          text: '雇佣我',
+          text: '联系我们',
           href: '#',
         },
       ]}
@@ -45,7 +45,7 @@ const metadata = {
     id="hero"
     title="Sarah Johnson"
     tagline="个人网站演示"
-    actions={[{ variant: 'primary', text: '雇佣我', href: getPermalink('/contact#form') }]}
+    actions={[{ variant: 'primary', text: '联系我们', href: getPermalink('/contact#form') }]}
   >
     <Fragment slot="subtitle">
       我是一名热衷于创作视觉故事的平面设计师。<br /> 拥有5年经验，毕业于纽约大学设计学院。我为品牌和设计注入活力，将概念转化为引人入胜的现实。
