@@ -22,22 +22,10 @@ const metadata = {
   <Fragment slot="announcement" />
   <!-- Hero Widget ******************* -->
 
-  <Hero
-    actions={[
-      {
-        variant: 'primary',
-        text: '获取模板',
-        href: 'https://github.com/onwidget/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
-      },
-      { text: '了解更多', href: '#features' },
-    ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
-  >
+
     <Fragment slot="title">
       微 <span class="hidden xl:inline">光</span>
-      <span class="text-accent dark:text-white highlight"> Astro 4.0</span> + Tailwind CSS 网站
+      <span class="text-accent dark:text-white highlight"> 助行
     </Fragment>
 
     <Fragment slot="subtitle">
@@ -63,7 +51,7 @@ const metadata = {
       {
         title: '快速响应',
         description:
-          '地处长沙市岳麓区，服务响应快',
+          '地处长沙市岳麓区湖南师范大学，服务响应快',
         icon: 'tabler:brand-tailwind',
       },
       {
@@ -81,7 +69,7 @@ const metadata = {
       {
         title: '出色的页面速度',
         description:
-          '良好的页面速度会影响自然搜索排名，改善用户体验 (UI/UX) 并提高转化率。',
+          '更方便用户使用',
         icon: 'tabler:rocket',
       },
       {
@@ -99,87 +87,14 @@ const metadata = {
     ]}
   />
 
-  <!-- Content Widget **************** -->
 
-  <Content
-    isReversed
-    tagline="模板内部"
-    title="AstroWind 的蓝图：趣味与功能的完美结合！"
-    items={[
-      {
-        title: '基于 Astro 4.0 构建',
-        description:
-          '受益于这款现代静态站点生成器的性能和开发者友好特性。',
-      },
-      {
-        title: '使用 Tailwind CSS 样式',
-        description:
-          '借助这款广受欢迎的实用优先 CSS 框架，实现快速设计和一致的样式。',
-      },
-      {
-        title: '跨浏览器兼容性',
-        description:
-          '确保您的网站在各种浏览器中外观和功能一致，为所有用户提供无缝体验。',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Colorful Image',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">构建于现代基础之上</h3>
-      通过采用行业领先实践获得竞争优势
-    </Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
-
-  <!-- Content Widget **************** -->
-
-  <Content
-    isAfterContent
-    items={[
-      {
-        title: '高度可定制',
-        description: `轻松定制模板以匹配您的品牌形象和需求，让您的网站独具特色，节省您的时间。`,
-      },
-      {
-        title: '多种布局可能',
-        description:
-          '探索各种布局选项，找到最能展示您内容的结构，增强用户参与度和导航体验。',
-      },
-      {
-        title: '完全响应式设计',
-        description:
-          "确保您的网站在各种设备和屏幕尺寸上都能获得最佳性能，提供一致且愉快的用户体验。",
-      },
-      {
-        title: '媒体集成',
-        description:
-          '无缝整合图片、视频和多媒体元素，增强您的内容并有效吸引访客。',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
-      alt: 'Blueprint Image',
-    }}
-  >
-    <Fragment slot="content">确保您的在线形象真正代表您。</Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
 
  
 
   <!-- Steps Widget ****************** -->
 
   <Steps
-    title="使用 AstroWind 快速启动您梦想中的网站。"
+    title="快速开始服务或提供建议"
     items={[
       {
         title: '步骤 1: <span class="font-medium">访问</span>',
@@ -214,52 +129,52 @@ const metadata = {
     tagline="关于我们"
     items={[
       {
-        title: '周**（组长）',
+        title: '周智洋（组长）',
         description: "湖南师范大学物理与电子科学学院",
         icon: 'flat-color-icons:voice-presentation',
       },
       {
-        title: '何*（副组长）',
+        title: '何娟（副组长）',
         description:
           "湖南师范大学物理与电子科学学院",
         icon: 'flat-color-icons:voice-presentation',
       },
       {
-        title: '王**（副组长）',
+        title: '王亚金（副组长）',
         description:
           '湖南师范大学物理与电子科学学院',
         icon: 'flat-color-icons:voice-presentation',
       },
       {
-        title: '邓**',
+        title: '邓晓萱',
         description:
           "湖南师范大学物理与电子科学学院",
         icon: 'flat-color-icons:voice-presentation',
       },
       {
-        title: '冯**',
+        title: '冯苑愉',
         description:
           '湖南师范大学物理与电子科学学院',
         icon: 'flat-color-icons:voice-presentation',
       },
       {
-        title: '胡刘*',
+        title: '胡刘超',
         description: '湖南师范大学物理与电子科学学院',
         icon: 'flat-color-icons:voice-presentation',
       },
       {
-        title: '胡迎*',
+        title: '胡迎奥',
         description: '湖南师范大学物理与电子科学学院',
         icon: 'flat-color-icons:voice-presentation',
       },
       {
-        title: '钱**',
+        title: '钱志伟',
         description:
           '湖南师范大学物理与电子科学学院',
         icon: 'flat-color-icons:voice-presentation', //
       },
       {
-        title: '杨**',
+        title: '杨昊宇',
         description: "湖南师范大学物理与电子科学学院",
         icon: 'flat-color-icons:voice-presentation',
       },
@@ -290,12 +205,12 @@ const metadata = {
       {
         title: '为什么选择我们？',
         description:
-          "AstroWind 结合了 Astro 的高性能和 Tailwind CSS 的灵活性，为您提供了一个快速、现代且易于定制的网站模板。无论您是构建个人博客还是企业网站，AstroWind 都能满足您的需求。",
+          "地理位置优越",
       },
       {
         title: '开始需要什么？',
         description:
-          '您只需要基本的 HTML、CSS 和 JavaScript 知识，以及对 Astro 框架的基本了解。我们的文档将指导您完成整个过程，从安装到部署。',
+          '首次0成本哦',
       },
       {
         title: '如何安装 Astro + Tailwind CSS 模板？',
@@ -315,21 +230,12 @@ const metadata = {
       {
         title: '遇到了其他问题？',
         description:
-          "您可以查看我们的文档、加入社区讨论，或在 GitHub 上提交问题。我们活跃的开发社区随时准备为您提供帮助。",
+          "您可以查看我们的文档、加入社区讨论，或在邮箱上提交问题。我们活跃的开发社区随时准备为您提供帮助。",
       },
     ]}
   />
 
-  <!-- Stats Widget ****************** -->
 
-  <Stats
-    stats={[
-      { title: '下载量', amount: '132K' },
-      { title: '星标', amount: '24.8K' },
-      { title: '分叉', amount: '10.3K' },
-      { title: '用户', amount: '48.4K' },
-    ]}
-  />
 
   <!-- CallToAction Widget *********** -->
 
