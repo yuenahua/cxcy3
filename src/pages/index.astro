@@ -36,17 +36,15 @@ const metadata = {
     image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      免费模板 <span class="hidden xl:inline">用于创建</span>
+      微 <span class="hidden xl:inline">光</span>
       <span class="text-accent dark:text-white highlight"> Astro 4.0</span> + Tailwind CSS 网站
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> 是一个免费、可定制且适合生产环境的 Astro 4.0
-        + Tailwind CSS 模板。</span
+        <span class="font-semibold">一个</span> 方便广大旧物循环的网站</span
       >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: 生产就绪。</span>
-      适用于初创企业、小型企业、SaaS 网站、专业作品集、营销网站、落地页和博客。
+      <span class="block mb-1 sm:hidden font-bold text-blue-600">本网站: 生产就绪。</span>
     </Fragment>
   </Hero>
 
@@ -59,19 +57,19 @@ const metadata = {
   <Features
     id="features"
     tagline="特性"
-    title="AstroWind 能为你带来什么"
-    subtitle="目前市场上最专业、最全面的模板之一。2022 年最受关注和分叉的 Astro 主题。"
+    title="我们 能为你带来什么"
+    subtitle="专业，全面，系统性的服务"
     items={[
       {
-        title: 'Astro + Tailwind CSS 集成',
+        title: '快速响应',
         description:
-          '两大优秀框架的无缝集成，提供高生产力、性能和多功能性。',
+          '地处长沙市岳麓区，服务响应快',
         icon: 'tabler:brand-tailwind',
       },
       {
-        title: '即用型组件',
+        title: '广阔的服务范围',
         description:
-          '使用 Tailwind CSS 制作的小部件，可直接用于营销网站、SaaS、博客、个人简介、小型企业...',
+          '覆盖多种资源的循环与回收利用',
         icon: 'tabler:components',
       },
       {
@@ -87,15 +85,15 @@ const metadata = {
         icon: 'tabler:rocket',
       },
       {
-        title: '搜索引擎优化 (SEO)',
+        title: '功能优化进行',
         description:
-          "SEO 的核心在于提升网站可见性，带来自然流量并触达更广泛的受众。",
+          "我们不断改进我们的网站，以提供更好的服务",
         icon: 'tabler:arrows-right-left',
       },
       {
         title: '开放新想法和贡献',
         description:
-          '拥抱开放的文化，接受新想法和贡献，促进创新、协作和动态的用户体验。',
+          '拥抱开放的文化，接受新想法和贡献，促进创新、协作和用户体验。',
         icon: 'tabler:bulb',
       },
     ]}
@@ -176,43 +174,7 @@ const metadata = {
     </Fragment>
   </Content>
 
-  <!-- Content Widget **************** -->
-
-  <Content
-    isReversed
-    isAfterContent
-    items={[
-      {
-        title: '增强的用户参与度',
-        description:
-          '通过交互式元素、直观的导航和视觉上吸引人的布局来吸引您的受众，鼓励更长时间的访问。',
-      },
-      {
-        title: '持续改进',
-        description:
-          '通过定期更新和增强，确保您的网站与最新趋势和技术保持同步。',
-      },
-      {
-        title: '时间和资源效率',
-        description:
-          '跳过从头开始构建网站的耗时过程，使用 AstroWind 更快地启动您的在线形象。',
-      },
-      {
-        title: '社区支持',
-        description: `加入不断发展的 AstroWind 社区，获取见解、资源和帮助，确保您在 Web 开发之旅中永不孤单。`,
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1611462985358-60d3498e0364?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Astronauts Image',
-    }}
-  >
-    <Fragment slot="content">旨在促进成长和成功。</Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
+ 
 
   <!-- Steps Widget ****************** -->
 
@@ -220,23 +182,19 @@ const metadata = {
     title="使用 AstroWind 快速启动您梦想中的网站。"
     items={[
       {
-        title: '步骤 1: <span class="font-medium">下载</span>',
+        title: '步骤 1: <span class="font-medium">访问</span>',
         description:
-          "从 GitHub 开始！分叉 AstroWind 模板或简单点击'使用此模板'。您的画布已准备好，等待您的数字杰作。只需几次点击，您就已经奠定了基础。",
+          "访问本网站，右上角点击“联系我们“ ",
         icon: 'tabler:package',
       },
       {
-        title: '步骤 2: <span class="font-medium">添加内容</span>',
+        title: '步骤 2: <span class="font-medium">描述内容</span>',
         description:
-          "将您的愿景注入其中。添加图片、文本和各种元素，为您的数字空间注入活力。记住，是内容讲述您的故事，所以要让它引人入胜。",
+          "具体描述您的要求，并提交",
         icon: 'tabler:letter-case',
       },
-      {
-        title: '步骤 3: <span class="font-medium">自定义样式</span>',
-        description:
-          '赋予它您的个人风格。调整颜色、字体和布局，直到感觉恰到好处。您独特的风格，由 AstroWind 放大！精确的设计确保无缝的用户体验。',
-        icon: 'tabler:paint',
-      },
+      
+
       {
         title: '完成！',
         icon: 'tabler:check',
@@ -258,36 +216,36 @@ const metadata = {
       {
         title: '周**（组长）',
         description: "湖南师范大学物理与电子科学学院",
-        icon: 'flat-color-icons:template',
+        icon: 'flat-color-icons:voice-presentation',
       },
       {
         title: '何*（副组长）',
         description:
           "湖南师范大学物理与电子科学学院",
-        icon: 'flat-color-icons:gallery',
+        icon: 'flat-color-icons:voice-presentation',
       },
       {
         title: '王**（副组长）',
         description:
           '湖南师范大学物理与电子科学学院',
-        icon: 'flat-color-icons:approval',
+        icon: 'flat-color-icons:voice-presentation',
       },
       {
         title: '邓**',
         description:
           "湖南师范大学物理与电子科学学院",
-        icon: 'flat-color-icons:document',
+        icon: 'flat-color-icons:voice-presentation',
       },
       {
         title: '冯**',
         description:
           '湖南师范大学物理与电子科学学院',
-        icon: 'flat-color-icons:advertising',
+        icon: 'flat-color-icons:voice-presentation',
       },
       {
         title: '胡刘*',
         description: '湖南师范大学物理与电子科学学院',
-        icon: 'flat-color-icons:currency-exchange',
+        icon: 'flat-color-icons:voice-presentation',
       },
       {
         title: '胡迎*',
@@ -298,12 +256,12 @@ const metadata = {
         title: '钱**',
         description:
           '湖南师范大学物理与电子科学学院',
-        icon: 'flat-color-icons:business-contact',
+        icon: 'flat-color-icons:voice-presentation', //
       },
       {
         title: '杨**',
         description: "湖南师范大学物理与电子科学学院",
-        icon: 'flat-color-icons:database',
+        icon: 'flat-color-icons:voice-presentation',
       },
     ]}
   >
@@ -379,19 +337,19 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: '获取模板',
-        href: 'https://github.com/onwidget/astrowind',
+        text: '联系我们',
+        href: '/contact',
         target: '_blank',
         icon: 'tabler:download',
       },
     ]}
   >
     <Fragment slot="title">
-      Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
+      微光<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">助行</span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      不要被这个页面上看到的这些巨大的虚假数字吓到。 <br class="hidden md:inline" />别再浪费时间了！:P
+      还在等什么？ <br class="hidden md:inline" />别再浪费时间了！
     </Fragment>
   </CallToAction>
 </Layout>
