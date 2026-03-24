@@ -1,5 +1,5 @@
 site:
-  name: AstroWind
+  name: 微光助行
   site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: 微光助行
+    template: '%s — 微光助行'
+  description: "🚀 一个方便广大旧物循环的网站，为用户提供专业、全面、系统性的服务。"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: 微光助行
     images:
       - url: '~/assets/images/default.png'
         width: 1200
